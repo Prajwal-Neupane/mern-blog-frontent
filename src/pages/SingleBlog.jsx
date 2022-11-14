@@ -25,7 +25,7 @@ const SingleBlog = () => {
           <h1>{data.title}</h1>
           <p>{data.description}</p>
           <img
-            src={`https://mern-blog-server-api.herokuapp.com/${data.thumbnail}`}
+            src={`https://mern-blog-api.onrender.com//${data.thumbnail}`}
             alt="blog"
           />
         </div>

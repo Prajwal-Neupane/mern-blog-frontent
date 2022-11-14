@@ -13,7 +13,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await axios.post(
-      "https://mern-blog-server-api.herokuapp.com/user/login",
+      "https://mern-blog-api.onrender.com/user/login",
       data
     );
     // if (

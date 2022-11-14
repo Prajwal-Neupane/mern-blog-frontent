@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       const response = await axios.get(
-        "https://mern-blog-server-api.herokuapp.com/blog",
+        "https://mern-blog-api.onrender.com/blog",
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,

@@ -28,7 +28,7 @@ const Register = () => {
       alert("Please confirm the password");
     } else {
       const response = await axios.post(
-        "https://mern-blog-server-api.herokuapp.com/user/register",
+        "https://mern-blog-api.onrender.com/user/register",
         {
           name,
           email,
